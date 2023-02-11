@@ -8,4 +8,5 @@ export const store = configureStore({
         journal: journalSlice.reducer,
         
     },
+    devTools: false
 });
